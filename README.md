@@ -1,27 +1,24 @@
-# AngularReddit
+<p align="center">
+  <a href="https://angular-reddit.edsonrodrigues.now.sh">
+    <h1 align="center">
+  angular-reddit
+</h1>
+  </a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
-## Development server
+## O que foi utilizado?
+- [Angular CLI](https://cli.angular.io)
+- [Semantic-ui](https://semantic-ui.com)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+[**Veja em produção**](https://angular-reddit.edsonrodrigues.now.sh).
+## Pode ser melhorado
+- [] CRUD de dados no LocalStorage.
+- [] CRUD contra uma API.
+- [] Alterar estilo da apresentação de votos. Ex: (negativo: red, neutro: gray, positivo: green) 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Para lembrar
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- ```[To]="From"``` Pass a value to the *@Input* named *To* on that component.
+- ```@HostBinding('attr.class') cssClass = 'row'``` The host element we want to set the class attribute to have 'row'. 
