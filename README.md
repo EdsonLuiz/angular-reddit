@@ -14,9 +14,9 @@
 
 [**Veja em produção**](https://angular-reddit.edsonrodrigues.now.sh).
 ## Pode ser melhorado
-- [] CRUD de dados no LocalStorage.
-- [] CRUD contra uma API.
-- [] Alterar estilo da apresentação de votos. Ex: (negativo: red, neutro: gray, positivo: green) 
+- [ ] CRUD de dados no LocalStorage.
+- [ ] CRUD contra uma API.
+- [ ] Alterar estilo da apresentação de votos. Ex: (negativo: red, neutro: gray, positivo: green) 
 
 ## Para lembrar
 
